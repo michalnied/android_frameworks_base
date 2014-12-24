@@ -45,38 +45,38 @@
 
 
     <!-- Title of a category of application permissions, listed so the user can choose whether they want to allow the application to do this. -->
-    <string name="permgrouplab_security">Security</string>
+    <string name="permgrouplab_security">Bezpieczeństwo</string>
     <!-- Description of a category of application permissions, listed so the user can choose whether they want to allow the application to do this. -->
-    <string name="permgroupdesc_security">Permissions related to device security information.</string>
+    <string name="permgroupdesc_security">Uprawnienia związane z bezpieczeństwem urządzenia.</string>
 
     <!-- [CHAR LIMIT=NONE] Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
-    <string name="permlab_readPhoneBlacklist">read phone blacklist</string>
+    <string name="permlab_readPhoneBlacklist">odczytywanie czarnej listy</string>
     <!-- [CHAR LIMIT=NONE] Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
-    <string name="permdesc_readPhoneBlacklist">Allows an app to read information about phone numbers that are blocked for incoming calls or messages.</string>
+    <string name="permdesc_readPhoneBlacklist">Zezwala aplikacji na odczytywanie numerów telefonów wpisanych na czarną listę.</string>
 
     <!-- [CHAR LIMIT=NONE] Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
-    <string name="permlab_changePhoneBlacklist">change phone blacklist</string>
+    <string name="permlab_changePhoneBlacklist">zmienianie czarnej listy</string>
     <!-- [CHAR LIMIT=NONE] Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
-    <string name="permdesc_changePhoneBlacklist">Allows an app to change the phone numbers that are blocked for incoming calls or messages.</string>
+    <string name="permdesc_changePhoneBlacklist">Zezwala aplikacji na zmienianie numerów telefonów wpisanych na czarną listę.</string>
 
     <!-- Privacy Guard -->
-    <string name="permlab_changePrivacyGuardState">enable or disable Privacy Guard</string>
-    <string name="permdesc_changePrivacyGuardState">Allows the app to change whether another app runs with Privacy Guard. When an app is running with Privacy Guard, it will not have access to personal data such as contacts, call logs, or messages.</string>
-    <string name="privacy_guard_notification">Privacy Guard active</string>
-    <string name="privacy_guard_notification_detail"><xliff:g id="app">%1$s</xliff:g> will not be able to access personal data</string>
+    <string name="permlab_changePrivacyGuardState">włącz lub wyłącz Ochronę Prywatności</string>
+    <string name="permdesc_changePrivacyGuardState">Zezwala aplikacji na decyzję, czy inna aplikacja będzie miała włączoną Ochronę Prywatności. Oznacza to, że ta aplikacja nie będzie miała dostępu do osobistych danych, takich jak kontakty, rejestry połączeń czy wiadomości.</string>
+    <string name="privacy_guard_notification">Ochrona Prywatności jest aktywna</string>
+    <string name="privacy_guard_notification_detail"><xliff:g id="app">%1$s</xliff:g> nie będzie miała dostępu do danych osobistych</string>
 
     <!-- Title of an application permission, listed so the user can choose whether they want the application to do this. -->
-    <string name="permlab_useHardwareFramework">use hardware framework</string>
+    <string name="permlab_useHardwareFramework">użyj sprzętowego frameworka</string>
     <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
-    <string name="permdesc_useHardwareFramework">Allows an app access to the CM hardware framework.</string>
+    <string name="permdesc_useHardwareFramework">Zezwala aplikacji na dostęp do sprzętowego frameworka CM.</string>
 
     <!-- Title of an application permission, listed so the user can choose whether they want the application to do this. -->
-    <string name="permlab_setKeyguardWallpaper">set keyguard wallpaper</string>
+    <string name="permlab_setKeyguardWallpaper">ustawianie tapety na blokadzie klawiatury</string>
     <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
-    <string name="permdesc_setKeyguardWallpaper">Allows an app to change the lock screen wallpaper.</string>
+    <string name="permdesc_setKeyguardWallpaper">Zezwala aplikacji na zmianę tapety ekranu blokady.</string>
 
-    <string name="privacy_guard_dialog_title">Privacy Guard</string>
-    <string name="privacy_guard_dialog_summary"><xliff:g id="app">%1$s</xliff:g> would like to <xliff:g id="op">%2$s</xliff:g>.</string>
+    <string name="privacy_guard_dialog_title">Ochrona Prywatności</string>
+    <string name="privacy_guard_dialog_summary"><xliff:g id="app">%1$s</xliff:g> chciałaby <xliff:g id="op">%2$s</xliff:g>.</string>
 
     <!-- label for item that reboots the phone in phone options dialog -->
     <string name="global_action_reboot">Uruchom telefon ponownie</string>
@@ -189,12 +189,12 @@
 
     <!-- Displayed when the USSD/SS request is modified by STK CC to a
     different request. This will be displayed in a toast. -->
-    <string name="stk_cc_ussd_to_dial">USSD request is modified to DIAL request.</string>
-    <string name="stk_cc_ussd_to_ss">USSD request is modified to SS request.</string>
-    <string name="stk_cc_ussd_to_ussd">USSD request is modified to new USSD request.</string>
-    <string name="stk_cc_ss_to_dial">SS request is modified to DIAL request.</string>
-    <string name="stk_cc_ss_to_ussd">SS request is modified to USSD request.</string>
-    <string name="stk_cc_ss_to_ss">SS request is modified to new SS request.</string>
+    <string name="stk_cc_ussd_to_dial">USSD zostało zmienione na prośbę DIAL.</string>
+    <string name="stk_cc_ussd_to_ss">USSD zostało zmienione na prośbę SS.</string>
+    <string name="stk_cc_ussd_to_ussd">USSD zostało zmienione na prośbę nowego USSD.</string>
+    <string name="stk_cc_ss_to_dial">SS zostało zmienione na prośbę DIAL.</string>
+    <string name="stk_cc_ss_to_ussd">SS zostało zmienione na prośbę USSD.</string>
+    <string name="stk_cc_ss_to_ss">SS zostało zmienione na prośbę nowego SS.</string>
 
     <!-- Carrier Name -->
     <string name="China_Mobile">China Mobile</string>
