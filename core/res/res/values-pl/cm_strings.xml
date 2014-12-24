@@ -22,7 +22,7 @@
     <string name="profileNameHome">Dom</string>
     <string name="profileNameSilent">Cichy</string>
     <string name="profileNameNight">Noc</string>
-    <string name="profileNameAutomobile">Samochów</string>
+    <string name="profileNameAutomobile">Samochód</string>
 
     <!-- Names of application groups. -->
     <string name="profileGroupPhone">Telefon</string>
@@ -168,24 +168,24 @@
     <string name="app_ops_write_sms">pisanie SMS</string>
 
     <!-- Shown in the lock screen when there is SIM card IO error. -->
-    <string name="lockscreen_sim_error_message_short">Invalid Card.</string>
+    <string name="lockscreen_sim_error_message_short">Nieprawidlowa karta SIM.</string>
 
     <!-- Shown in the lock screen to tell the user that phone is in airplane mode-->
-    <string name="lockscreen_airplane_mode_on">Airplane Mode</string>
+    <string name="lockscreen_airplane_mode_on">Tryb Samolotowy</string>
 
     <!-- USB_PREFERENCES: Notification for when the user connects the phone to a computer via USB in CHARGING mode.  This is the title -->
-    <string name="usb_charging_notification_title">Connected in charging mode</string>
+    <string name="usb_charging_notification_title">Podłączono w trybie ładowania</string>
 
     <!-- Shown when the device is tethered -->
-    <string name="tethered_notification_no_device_message">No connected device</string>
-    <string name="tethered_notification_one_device_message"><xliff:g id="count">%1$s</xliff:g> connected device</string>
-    <string name="tethered_notification_multi_device_message"><xliff:g id="count">%1$s</xliff:g> connected devices</string>
+    <string name="tethered_notification_no_device_message">Brak podłączonego urządzenia</string>
+    <string name="tethered_notification_one_device_message"><xliff:g id="count">%1$s</xliff:g> podłączono urządzenie</string>
+    <string name="tethered_notification_multi_device_message"><xliff:g id="count">%1$s</xliff:g> podłączono urządzenia</string>
 
     <!-- Text for progress dialog while formatting SD card [CHAR LIMIT=NONE] -->
-    <string name="progress_nomediapresent" product="default">No removable media present\u2026</string>
+    <string name="progress_nomediapresent" product="default">Brak karty pamięci\u2026</string>
 
     <!-- Storage description for UICC storage. [CHAR LIMIT=NONE] -->
-    <string name="storage_uicc">UICC storage</string>
+    <string name="storage_uicc">Pamięć UICC</string>
 
     <!-- Displayed when the USSD/SS request is modified by STK CC to a
     different request. This will be displayed in a toast. -->
@@ -202,8 +202,8 @@
     <string name="China_Telecom">China Telecom</string>
 
     <!-- Text of the checkbox for the permission confirmation dialog to remember the user's choice. [CHAR LIMIT=40] -->
-    <string name="permission_remember_choice">Remember</string>
-    <string name="permission">Permission</string>
+    <string name="permission_remember_choice">Zapamiętaj</string>
+    <string name="permission">Zezwolenie</string>
 
     <!-- Default wi-fi hotspot ssid -->
     <string name="def_wifi_wifihotspot_ssid" translatable="false"></string>
