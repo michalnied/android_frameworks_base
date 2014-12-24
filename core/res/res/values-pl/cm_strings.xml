@@ -17,31 +17,31 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Names of default profiles. -->
-    <string name="profileNameDefault">Default</string>
-    <string name="profileNameWork">Work</string>
-    <string name="profileNameHome">Home</string>
-    <string name="profileNameSilent">Silent</string>
-    <string name="profileNameNight">Night</string>
-    <string name="profileNameAutomobile">Automobile</string>
+    <string name="profileNameDefault">Domyślny</string>
+    <string name="profileNameWork">Praca</string>
+    <string name="profileNameHome">Dom</string>
+    <string name="profileNameSilent">Cichy</string>
+    <string name="profileNameNight">Noc</string>
+    <string name="profileNameAutomobile">Samochów</string>
 
     <!-- Names of application groups. -->
-    <string name="profileGroupPhone">Phone</string>
-    <string name="profileGroupCalendar">Calendar</string>
+    <string name="profileGroupPhone">Telefon</string>
+    <string name="profileGroupCalendar">Kalendarz</string>
     <string name="profileGroupGmail">Gmail</string>
     <string name="profileGroupEmail">Email</string>
     <string name="profileGroupSMS">SMS</string>
 
     <!-- Name of wildcard profile. -->
-    <string name="wildcardProfile">Other</string>
+    <string name="wildcardProfile">Inny</string>
 
      <!-- The item label for the no profile selection item. -->
-     <string name="profile_none">None</string>
+     <string name="profile_none">Żaden</string>
 
      <!-- The title of the profile picker dialog. -->
-     <string name="profile_picker_title">Profiles</string>
+     <string name="profile_picker_title">Profile</string>
 
     <!-- label for item that opens the profile choosing dialog -->
-    <string name="global_action_choose_profile">Profile</string>
+    <string name="global_action_choose_profile">Profil</string>
 
 
     <!-- Title of a category of application permissions, listed so the user can choose whether they want to allow the application to do this. -->
@@ -79,49 +79,49 @@
     <string name="privacy_guard_dialog_summary"><xliff:g id="app">%1$s</xliff:g> would like to <xliff:g id="op">%2$s</xliff:g>.</string>
 
     <!-- label for item that reboots the phone in phone options dialog -->
-    <string name="global_action_reboot">Reboot</string>
+    <string name="global_action_reboot">Uruchom telefon ponownie</string>
 
     <!-- Reboot menu -->
     <!-- Button to reboot the phone, within the Reboot Options dialog -->
-    <string name="reboot_reboot">Reboot</string>
+    <string name="reboot_reboot">Uruchom ponownie</string>
     <!-- Button to reboot the phone into recovery, within the Reboot Options dialog -->
-    <string name="reboot_recovery">Recovery</string>
+    <string name="reboot_recovery">Uruchom w trybie Recovery</string>
     <!-- Button to reboot the phone into bootloader, within the Reboot Options dialog -->
-    <string name="reboot_bootloader">Bootloader</string>
+    <string name="reboot_bootloader">Uruchom w trybie Bootloader</string>
     <!-- Button to reboot the phone into download, within the Reboot Options dialog -->
-    <string name="reboot_download">Download</string>
+    <string name="reboot_download">Uruchom w trybie Download</string>
     <!-- Button to soft reboot the device, within the Reboot Options dialog -->
-    <string name="reboot_soft">Soft reboot</string>
+    <string name="reboot_soft">Miękki restart</string>
 
     <!-- Title of dialog to confirm rebooting. -->
-    <string name="reboot_title">Reboot</string>
+    <string name="reboot_title">Uruchom telefon ponownie</string>
 
     <!-- Reboot Confirmation Dialog.  When the user chooses to reboot the device, there will
          be a confirmation dialog.  This is the message. -->
-    <string name="reboot_confirm" product="tablet">Your tablet will reboot.</string>
-    <string name="reboot_confirm" product="default">Your phone will reboot.</string>
+    <string name="reboot_confirm" product="tablet">Twój tablet uruchomi się ponownie.</string>
+    <string name="reboot_confirm" product="default">Twój teledon uruchomi się ponowniet.</string>
 
     <!-- Reboot Progress Dialog. This is shown if the user chooses to reboot the phone. -->
-    <string name="reboot_progress">Rebooting\u2026</string>
+    <string name="reboot_progress">Ponowne uruchamianie\u2026</string>
 
     <!-- Long-press back kill application -->
-    <string name="app_killed_message">Application killed</string>
+    <string name="app_killed_message">Zabito aplikację</string>
 
     <!-- ADB over network notification -->
-    <string name="adb_net_active_notification_title">ADB over network enabled</string>
+    <string name="adb_net_active_notification_title">Włączono ADB przez sieć</string>
     <!-- ADB over USB and network notification -->
-    <string name="adb_both_active_notification_title">ADB over USB &amp; network enabled</string>
+    <string name="adb_both_active_notification_title">Włączono ADB &amp; przez sieć USB</string>
     <!-- ADB notification message-->
-    <string name="adb_active_generic_notification_message">Touch to disable debugging.</string>
+    <string name="adb_active_generic_notification_message">Dotknij, aby wyłączyć debugowanie.</string>
 
     <!-- App ops requests -->
-    <string name="app_ops_access_camera">access the camera</string>
-    <string name="app_ops_access_location">access your location</string>
-    <string name="app_ops_access_notifications">read your notifications</string>
-    <string name="app_ops_activate_vpn">activate a VPN</string>
-    <string name="app_ops_alarm_wakeup">wake up the device</string>
-    <string name="app_ops_auto_start">start at power up</string>
-    <string name="app_ops_delete_call_log">delete your call log</string>
+    <string name="app_ops_access_camera">dostęp do aparatu</string>
+    <string name="app_ops_access_location">dostęp lokalizacji</string>
+    <string name="app_ops_access_notifications">odczytywanie powiadomień</string>
+    <string name="app_ops_activate_vpn">aktywacja VPN</string>
+    <string name="app_ops_alarm_wakeup">wybudzanie urządzenia</string>
+    <string name="app_ops_auto_start">uruchamianie przy starcie</string>
+    <string name="app_ops_delete_call_log">usuwanie rejestru połączeń</string>
     <string name="app_ops_delete_contacts">delete your contacts</string>
     <string name="app_ops_delete_mms">delete your MMS messages</string>
     <string name="app_ops_delete_sms">delete your SMS messages</string>
