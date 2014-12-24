@@ -99,7 +99,7 @@
     <!-- Reboot Confirmation Dialog.  When the user chooses to reboot the device, there will
          be a confirmation dialog.  This is the message. -->
     <string name="reboot_confirm" product="tablet">Twój tablet uruchomi się ponownie.</string>
-    <string name="reboot_confirm" product="default">Twój teledon uruchomi się ponowniet.</string>
+    <string name="reboot_confirm" product="default">Twój teledon uruchomi się ponownie.</string>
 
     <!-- Reboot Progress Dialog. This is shown if the user chooses to reboot the phone. -->
     <string name="reboot_progress">Ponowne uruchamianie\u2026</string>
@@ -116,7 +116,7 @@
 
     <!-- App ops requests -->
     <string name="app_ops_access_camera">dostęp do aparatu</string>
-    <string name="app_ops_access_location">dostęp lokalizacji</string>
+    <string name="app_ops_access_location">dostęp do lokalizacji</string>
     <string name="app_ops_access_notifications">odczytywanie powiadomień</string>
     <string name="app_ops_activate_vpn">aktywacja VPN</string>
     <string name="app_ops_alarm_wakeup">wybudzanie urządzenia</string>
