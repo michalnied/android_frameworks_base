@@ -38,6 +38,16 @@
     <string name="accessibility_quick_settings_roaming_off">Roaming wyłączony.</string>
     <!-- Content description of the roaming tile in quick settings when on (not shown on the screen). [CHAR LIMIT=NONE] -->
     <string name="accessibility_quick_settings_roaming_on">Roaming włączony.</string>
+    
+    <!-- Content description of the location tile in quick settings when on, battery saving mode (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_quick_settings_location_battery_saving">Raportowanie lokalizacji: oszczędzanie baterii.</string>
+    <!-- Content description of the location tile in quick settings when on, sensors only mode (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_quick_settings_location_gps_only">Raportowanie lokalizacji: tylko urządzenie.</string>
+    <!-- Content description of the location tile in quick settings when on, high accuracy mode (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_quick_settings_location_high_accuracy">Raportowanie lokalizacji: wysoka dokładność.</string>
+
+    <!-- Content description of the superuser tile -->
+    <string name="accessibility_su_active">Aktywna sesja Superuser</string>
 
     <!-- QuickSettings: Mobile data [CHAR LIMIT=NONE] -->
     <string name="quick_settings_mobile_data_label">Dane komórkowe</string>
@@ -48,9 +58,33 @@
     <string name="quick_settings_apn_switch_label">Przełącznik APN</string>
 
     <!-- QuickSettings: Dds [CHAR LIMIT=NONE] -->
-    <string name="quick_settings_dds_sub">Card <xliff:g id="number">%d</xliff:g> data</string>
+    <string name="quick_settings_dds_sub">Karta <xliff:g id="number">%d</xliff:g> dane</string>
     <string name="quick_settings_data_off">Dane wyłączone</string>
 
+    <!-- QuickSettings: Location (On, low-power) [CHAR LIMIT=NONE] -->
+    <string name="quick_settings_location_battery_saving_label">Oszczędzanie baterii</string>
+    <!-- QuickSettings: Location (On, gps-only) [CHAR LIMIT=NONE] -->
+    <string name="quick_settings_location_gps_only_label">GPS</string>
+    <!-- QuickSettings: Location (On, high-accuracy) [CHAR LIMIT=NONE] -->
+    <string name="quick_settings_location_high_accuracy_label">Wysoka dokładność</string>
+
+    <!-- QuickSettings: Location detail panel title [CHAR LIMIT=NONE] -->
+    <string name="quick_settings_location_detail_title">Lokalizacja</string>
+    <!-- QuickSettings: Location detail panel menu title [CHAR LIMIT=NONE] -->
+    <string name="quick_settings_location_detail_menu_title">Wybierz tryb:</string>
+    <!-- [CHAR LIMIT=30] Location detail panel, high accuracy location mode -->
+    <string name="quick_settings_location_detail_mode_high_accuracy_title">Wysoka dokładność</string>
+    <!-- [CHAR LIMIT=30] Location detail panel, battery saving location mode -->
+    <string name="quick_settings_location_detail_mode_battery_saving_title">Oszczędzanie baterii</string>
+    <!-- [CHAR LIMIT=30] Location detail panel, device only location mode -->
+    <string name="quick_settings_location_detail_mode_sensors_only_title">Tylko urządzenie</string>
+    <!-- [CHAR LIMIT=130] Location detail panel, description for high accuracy mode -->
+    <string name="quick_settings_location_detail_mode_high_accuracy_description">Używaj GPS, Wi\u2011Fi i sieci komórkowych do określenia lokalizacji</string>
+    <!-- [CHAR LIMIT=130] Location detail panel, description for battery saving mode -->
+    <string name="quick_settings_location_detail_mode_battery_saving_description">Używaj Wi\u2011Fi i sieci komórkowych do określenia lokalizacji</string>
+    <!-- [CHAR LIMIT=130] Location detail panel, description for sensors only mode -->
+    <string name="quick_settings_location_detail_mode_sensors_only_description">Używaj GPS do określenia twojej lokalizacji</string>
+    
     <!-- Task Manager -->
     <string name="tasklistview_title">Menedżer zadań</string>
     <string name="message_switch_fail">Nie można wyłączyć do tego zadania, ponieważ nie posiada ono interfejsu.</string>
@@ -60,4 +94,14 @@
 
     <!-- Weather string format in expanded statusbar header -->
     <string name="status_bar_expanded_header_weather_format"><xliff:g id="temp">%1$s</xliff:g> - <xliff:g id="condition">%2$s</xliff:g></string>
+    
+    <!-- Notify changed wifi network -->
+    <string name="wifi_status_changed">Nowe połączenie</string>
+    <string name="wifi_restored">Przywrócono połączenie</string>
+    <string name="wifi_address_changed">Wi\u2011Fi SSID zmieniono na <xliff:g id="name">%s</xliff:g></string>
+    <string name="wifi_changed_ticker">Wi\u2011Fi SSID: <xliff:g id="name">%s</xliff:g></string>
+
+    <string name="left_shortcut_hint">Przesuń w prawo, by %1$s</string>
+    <string name="right_shortcut_hint">Przesuń w lewo, by %1$s</string>
+    
 </resources>
