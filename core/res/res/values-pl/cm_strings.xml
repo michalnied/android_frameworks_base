@@ -42,13 +42,31 @@
 
     <!-- label for item that opens the profile choosing dialog -->
     <string name="global_action_choose_profile">Profil</string>
-
+    <!-- label for item that screenshots in phone options dialog -->
+    <string name="global_action_screenshot">Zrzut ekranu</string>
 
     <!-- Title of a category of application permissions, listed so the user can choose whether they want to allow the application to do this. -->
     <string name="permgrouplab_security">Bezpieczeństwo</string>
     <!-- Description of a category of application permissions, listed so the user can choose whether they want to allow the application to do this. -->
     <string name="permgroupdesc_security">Uprawnienia związane z bezpieczeństwem urządzenia.</string>
 
+    <!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permlab_accessThemeService">access theme service</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_accessThemeService">Allows an app to access the theme service. Should never be needed for normal apps.</string>
+
+    <!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permlab_readThemes">read your theme info</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_readThemesDesc">Allows the app to read your themes and
+       determine which theme you have applied.</string>
+
+    <!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permlab_writeThemes">modify your themes</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_writeThemesDesc">Allows the app to insert new themes and
+       modify which theme you have applied.</string>
+       
     <!-- [CHAR LIMIT=NONE] Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
     <string name="permlab_readPhoneBlacklist">odczytywanie czarnej listy</string>
     <!-- [CHAR LIMIT=NONE] Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
