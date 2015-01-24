@@ -51,21 +51,21 @@
     <string name="permgroupdesc_security">Uprawnienia związane z bezpieczeństwem urządzenia.</string>
 
     <!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
-    <string name="permlab_accessThemeService">access theme service</string>
+    <string name="permlab_accessThemeService">dostęp do usługi motywu</string>
     <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
-    <string name="permdesc_accessThemeService">Allows an app to access the theme service. Should never be needed for normal apps.</string>
+    <string name="permdesc_accessThemeService">Zezwala aplikacji na dostęp do usługi motywu. Nigdy nie powinno być potrzebne zwykłym aplikacjom.</string>
 
     <!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
-    <string name="permlab_readThemes">read your theme info</string>
+    <string name="permlab_readThemes">odczytywanie informacji o motywie</string>
     <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
-    <string name="permdesc_readThemesDesc">Allows the app to read your themes and
-       determine which theme you have applied.</string>
+    <string name="permdesc_readThemesDesc">Zezwala aplikacji na odczytywanie motywów i 
+    określenie, który motyw zastosowałeś.</string>
 
     <!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
-    <string name="permlab_writeThemes">modify your themes</string>
+    <string name="permlab_writeThemes">modyfikowanie twojego motywu</string>
     <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
-    <string name="permdesc_writeThemesDesc">Allows the app to insert new themes and
-       modify which theme you have applied.</string>
+    <string name="permdesc_writeThemesDesc">Zezwala aplikacji wstawiać nowy motywy i 
+    modyfikować motywy już zastosowane.</string>
        
     <!-- [CHAR LIMIT=NONE] Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
     <string name="permlab_readPhoneBlacklist">odczytywanie czarnej listy</string>
@@ -94,7 +94,7 @@
     <string name="permdesc_setKeyguardWallpaper">Zezwala aplikacji na zmianę tapety ekranu blokady.</string>
 
     <string name="privacy_guard_dialog_title">Ochrona Prywatności</string>
-    <string name="privacy_guard_dialog_summary"><xliff:g id="app">%1$s</xliff:g> chciałaby <xliff:g id="op">%2$s</xliff:g>.</string>
+    <string name="privacy_guard_dialog_summary"><xliff:g id="app">%1$s</xliff:g> chce <xliff:g id="op">%2$s</xliff:g>.</string>
 
     <!-- label for item that reboots the phone in phone options dialog -->
     <string name="global_action_reboot">Uruchom telefon ponownie</string>
@@ -138,6 +138,7 @@
     <string name="app_ops_access_notifications">odczytywanie powiadomień</string>
     <string name="app_ops_activate_vpn">aktywacja VPN</string>
     <string name="app_ops_alarm_wakeup">wybudzanie urządzenia</string>
+    <string name="app_ops_su">uzyskać dostęp Superuser</string>
     <string name="app_ops_auto_start">uruchamianie przy starcie</string>
     <string name="app_ops_delete_call_log">usuwanie rejestru połączeń</string>
     <string name="app_ops_delete_contacts">usuwanie kontaktów</string>
@@ -229,4 +230,18 @@
     <string name="def_wifi_wifihotspot_pass" translatable="false"></string>
     <!-- Default wi-fi direct name -->
     <string name="def_wifi_direct_name" translatable="false"></string>
-</resources>
+    
+    <!-- Theme installation error notification -->
+    <string name="theme_install_error_title">Niepowodzenie instalacji motywu</string>
+    <string name="theme_install_error_message">%s nie udało się zainstalować</string>
+
+    <!-- [CHAR LIMIT=NONE] Message shown in dialog on first boot after clean install for each .apk that is optimized. -->
+    <string name="android_installing_apk">Instalowanie aplikacji
+        <xliff:g id="number" example="123">%1$d</xliff:g> z
+        <xliff:g id="number" example="123">%2$d</xliff:g>.</string>
+
+    <!-- [CHAR LIMIT=40] Title of dialog that is shown when performing a system install. -->
+    <string name="android_installing_title">Android jest instalowany\u2026</string>
+    
+ </resources>        
+    
