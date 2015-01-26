@@ -85,6 +85,16 @@
     <!-- [CHAR LIMIT=130] Location detail panel, description for sensors only mode -->
     <string name="quick_settings_location_detail_mode_sensors_only_description">Używaj GPS do określenia twojej lokalizacji</string>
     
+    <string name="quick_settings_nfc">NFC</string>
+    <string name="quick_settings_nfc_off">NFC jest wyłączone</string>
+    <string name="quick_settings_profile_detail_menu_title">Wybierz profil:</string>
+    <string name="quick_settings_profiles_title">Profile</string>
+    <string name="quick_settings_profiles_disabled">Profile są wyłączone</string>
+    <string name="quick_settings_compass_value" translatable="false"><xliff:g id="degrees">%1$.0f</xliff:g>\u00b0 <xliff:g id="direction">%2$s</xliff:g></string>
+    <string name="quick_settings_compass_off">Kompas jest wyłączony</string>
+    <string name="quick_settings_compass_init">Uruchamianie\u2026</string>
+    <string name="quick_settings_lockscreen">Blokada ekranu</string>
+    
     <!-- Task Manager -->
     <string name="tasklistview_title">Menedżer zadań</string>
     <string name="message_switch_fail">Nie można wyłączyć do tego zadania, ponieważ nie posiada ono interfejsu.</string>
@@ -103,5 +113,8 @@
 
     <string name="left_shortcut_hint">Przesuń w prawo, by %1$s</string>
     <string name="right_shortcut_hint">Przesuń w lewo, by %1$s</string>
+    
+    <string name="quick_settings_network_adb_enabled_label">Włączone</string>
+    <string name="quick_settings_network_adb_disabled_label">Wyłączone</string>
     
 </resources>
