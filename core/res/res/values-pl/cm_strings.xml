@@ -243,5 +243,7 @@
     <!-- [CHAR LIMIT=40] Title of dialog that is shown when performing a system install. -->
     <string name="android_installing_title">Android jest instalowany\u2026</string>
     
- </resources>        
+    <string name="theme_reset_notification_title">Reset motywu</string>
+    <string name="theme_reset_notification_body">Motyw systemowy został przywrócony z powodu wielokrotnej awarii aplikacji.</string>
+</resources>        
     
