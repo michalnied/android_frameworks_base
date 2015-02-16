@@ -1,20 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-/**
- * Copyright (c) 2009, The Android Open Source Project
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); 
- * you may not use this file except in compliance with the License. 
- * You may obtain a copy of the License at 
- *
- *     http://www.apache.org/licenses/LICENSE-2.0 
- *
- * Unless required by applicable law or agreed to in writing, software 
- * distributed under the License is distributed on an "AS IS" BASIS, 
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
- * See the License for the specific language governing permissions and 
- * limitations under the License.
- */
+     Copyright (C) 2015 The CyanogenMod Project
+     
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+     
+          http://www.apache.org/licenses/LICENSE-2.0
+          
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- The text for the button in the notification window-shade that clears
@@ -61,47 +59,28 @@
     <string name="quick_settings_dds_sub">Karta <xliff:g id="number">%d</xliff:g> dane</string>
     <string name="quick_settings_data_off">Dane wyłączone</string>
 
+ <!-- QuickSettings: Location detail panel title [CHAR LIMIT=NONE] -->
+    <string name="quick_settings_location_detail_title">Tryb lokalizacji</string>
     <!-- QuickSettings: Location (On, low-power) [CHAR LIMIT=NONE] -->
     <string name="quick_settings_location_battery_saving_label">Oszczędzanie baterii</string>
     <!-- QuickSettings: Location (On, gps-only) [CHAR LIMIT=NONE] -->
-    <string name="quick_settings_location_gps_only_label">GPS</string>
+    <string name="quick_settings_location_gps_only_label">Tylko urządzenie</string>
     <!-- QuickSettings: Location (On, high-accuracy) [CHAR LIMIT=NONE] -->
     <string name="quick_settings_location_high_accuracy_label">Wysoka dokładność</string>
 
-    <!-- QuickSettings: Location detail panel title [CHAR LIMIT=NONE] -->
-    <string name="quick_settings_location_detail_title">Lokalizacja</string>
-    <!-- QuickSettings: Location detail panel menu title [CHAR LIMIT=NONE] -->
-    <string name="quick_settings_location_detail_menu_title">Wybierz tryb:</string>
-    <!-- [CHAR LIMIT=30] Location detail panel, high accuracy location mode -->
-    <string name="quick_settings_location_detail_mode_high_accuracy_title">Wysoka dokładność</string>
-    <!-- [CHAR LIMIT=30] Location detail panel, battery saving location mode -->
-    <string name="quick_settings_location_detail_mode_battery_saving_title">Oszczędzanie baterii</string>
-    <!-- [CHAR LIMIT=30] Location detail panel, device only location mode -->
-    <string name="quick_settings_location_detail_mode_sensors_only_title">Tylko urządzenie</string>
-    <!-- [CHAR LIMIT=130] Location detail panel, description for high accuracy mode -->
-    <string name="quick_settings_location_detail_mode_high_accuracy_description">Używaj GPS, Wi\u2011Fi i sieci komórkowych do określenia lokalizacji</string>
-    <!-- [CHAR LIMIT=130] Location detail panel, description for battery saving mode -->
-    <string name="quick_settings_location_detail_mode_battery_saving_description">Używaj Wi\u2011Fi i sieci komórkowych do określenia lokalizacji</string>
-    <!-- [CHAR LIMIT=130] Location detail panel, description for sensors only mode -->
-    <string name="quick_settings_location_detail_mode_sensors_only_description">Używaj GPS do określenia twojej lokalizacji</string>
-    
-    <string name="quick_settings_nfc">NFC</string>
-    <string name="quick_settings_nfc_off">NFC jest wyłączone</string>
-    <string name="quick_settings_profile_detail_menu_title">Wybierz profil:</string>
-    <string name="quick_settings_profiles_title">Profile</string>
+     <string name="quick_settings_nfc_label">NFC</string>
+    <string name="quick_settings_profiles_detail_title">Profile</string>
     <string name="quick_settings_profiles_disabled">Profile są wyłączone</string>
+    <string name="quick_settings_compass_label">Kompas</string>
     <string name="quick_settings_compass_value" translatable="false"><xliff:g id="degrees">%1$.0f</xliff:g>\u00b0 <xliff:g id="direction">%2$s</xliff:g></string>
-    <string name="quick_settings_compass_off">Kompas jest wyłączony</string>
     <string name="quick_settings_compass_init">Uruchamianie\u2026</string>
-    <string name="quick_settings_lockscreen">Blokada ekranu</string>
+    <string name="quick_settings_lockscreen_label">Blokada ekranu</string>
+    <string name="quick_settings_lockscreen_label_enforced">Wymuszono blokadę ekranu</string>
+    <string name="quick_settings_network_adb_label">ADB przez sieć</string>
+    <string name="quick_settings_lte_label">LTE</string>
+    <string name="quick_settings_visualizer_label" translatable="false">AudioFX</string>
+    <string name="quick_settings_screen_timeout_detail_title">Uśpienie ekranu</string>
     
-    <!-- Task Manager -->
-    <string name="tasklistview_title">Menedżer zadań</string>
-    <string name="message_switch_fail">Nie można wyłączyć do tego zadania, ponieważ nie posiada ono interfejsu.</string>
-    <string name="tasklist_killall">Zabij wszystkie</string>
-    <string name="tasklist_memory_usage">"Pamięć wolna/całkowita: [<xliff:g id="number">%s</xliff:g>] / [<xliff:g id="name">%s</xliff:g>]"</string>
-    <string name="message_keep_one_launcher">Należy zachować co najmniej jedno działanie startowe!</string>
-
     <!-- Weather string format in expanded statusbar header -->
     <string name="status_bar_expanded_header_weather_format"><xliff:g id="temp">%1$s</xliff:g> - <xliff:g id="condition">%2$s</xliff:g></string>
     
@@ -113,8 +92,34 @@
 
     <string name="left_shortcut_hint">Przesuń w prawo, by %1$s</string>
     <string name="right_shortcut_hint">Przesuń w lewo, by %1$s</string>
-    
-    <string name="quick_settings_network_adb_enabled_label">Włączone</string>
-    <string name="quick_settings_network_adb_disabled_label">Wyłączone</string>
+
+     <!-- Dialog title for navigation bar button selection -->
+    <string name="navbar_dialog_title">Wybierz akcję do przypisania</string>
+    <string name="navbar_home_button">Przycisk home</string>
+    <string name="navbar_recent_button">Przycisk ostatnich aplikacji</string>
+    <string name="navbar_search_button">Przycisk szukaj</string>
+    <string name="navbar_back_button">Przycisk wstecz</string>
+    <string name="navbar_empty_button">Pusty</string>
+    <string name="navbar_menu_conditional_button">Przycisk menu (ukryty)</string>
+    <string name="navbar_menu_always_button">Przycisk menu (wyświetlony)</string>
+    <string name="navbar_menu_big_button">Przycisk menu</string>
+
+    <!-- Navigation ring shortcuts -->
+    <string name="navigation_ring_title">Skróty szybkiego uruchamiania</string>
+    <string name="navring_target_reset_message">Usunąć stworzone skróty paska nawigacyjnego i przywrócić je do domyślnych?</string>
+    <string name="navring_target_reset">Przwróć domyślne skróty paska nawigacyjnego</string>
+    <string name="navring_action_open_ime_switcher">Otwórz przełącznik IMEr</string>
+    <string name="navring_action_kill_app">Zabij aplikację</string>
+    <string name="navring_action_none">Brak</string>
+    <string name="navring_action_take_screenshot">Zrzut ekranu</string>
+    <string name="navring_action_ring_vibrate">Dzwonek/Wibracje</string>
+    <string name="navring_action_ring_silent">Dzwonek/Cichy</string>
+    <string name="navring_action_ring_vibrate_silent">Dzwonek/Wibracje/Cichy</string>
+    <string name="navring_action_screen_off">Wyłączenie ekranu</string>
+    <string name="navring_action_torch">Latarka</string>
+    <string name="navring_action_google_now">Google Now</string>
+    <string name="navring_choose_action_title">Wybierz działanie</string>
+    <string name="select_application">Wybierz aplikację</string>
+    <string name="lockscreen_target_empty">Pusty</string>
     
 </resources>
