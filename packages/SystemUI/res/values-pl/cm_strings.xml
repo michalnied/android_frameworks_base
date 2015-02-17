@@ -100,8 +100,8 @@
     <string name="navbar_search_button">Przycisk szukaj</string>
     <string name="navbar_back_button">Przycisk wstecz</string>
     <string name="navbar_empty_button">Pusty</string>
-    <string name="navbar_menu_conditional_button">Przycisk menu (ukryty)</string>
-    <string name="navbar_menu_always_button">Przycisk menu (wyświetlony)</string>
+    <string name="navbar_menu_conditional_button">Przycisk menu (autoukrywaj)</string>
+    <string name="navbar_menu_always_button">Przycisk menu (zawsze pokazuj)</string>
     <string name="navbar_menu_big_button">Przycisk menu</string>
 
     <!-- Navigation ring shortcuts -->
